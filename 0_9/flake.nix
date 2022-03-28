@@ -11,7 +11,6 @@
   inputs.src-kaitai_struct_nim_runtime-0_9.ref   = "refs/tags/0.9";
   inputs.src-kaitai_struct_nim_runtime-0_9.owner = "kaitai-io";
   inputs.src-kaitai_struct_nim_runtime-0_9.repo  = "kaitai_struct_nim_runtime";
-  inputs.src-kaitai_struct_nim_runtime-0_9.dir   = "";
   inputs.src-kaitai_struct_nim_runtime-0_9.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
